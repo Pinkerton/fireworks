@@ -15,12 +15,19 @@ using namespace ci;
 Particle::Particle(float x, float y) {
     mX = x;
     mY = y;
+    
+    float randScalar = Rand::randFloat();
+
     mVX = Rand::randFloat(-5.0, 5.0);
-    mVY = Rand::randFloat(-5.0, 5.0);
-    //printf("%f, %f\n", mVX, mVY);
-    mLife = 10000;
-    mRad = 10;
-    mA = 0.1;
+    mVY = sqrtf(25 - mVX * mVX);
+    mVY *= Rand::randBool() ? -1 : 1;
+    
+    mVX *= randScalar;
+    mVY *= randScalar;
+    
+    mLife = 1000;
+    mRad = 5;
+    mA = 0.2;
 }
 
 void Particle::draw() {
