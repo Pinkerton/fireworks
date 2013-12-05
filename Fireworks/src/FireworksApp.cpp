@@ -11,29 +11,30 @@ class FireworksApp : public AppNative {
   public:
     void prepareSettings(Settings *settings);
 	void setup();
-	void mouseDown( MouseEvent event );	
+	void mouseDown(MouseEvent event);
+    void mouseDrag(MouseEvent event);
 	void update();
 	void draw();
     std::list<Emitter> emitters;
 };
 
-void FireworksApp::prepareSettings(Settings *settings)
-{
-	settings->setWindowSize( 800, 600 );
-	settings->setFrameRate( 60.0f );
+void FireworksApp::prepareSettings(Settings *settings) {
+	settings->setWindowSize(1000, 800);
+	settings->setFrameRate(60.0f);
 }
 
-void FireworksApp::setup()
-{
+void FireworksApp::setup() {
 }
 
-void FireworksApp::mouseDown( MouseEvent event )
-{
+void FireworksApp::mouseDown(MouseEvent event) {
     emitters.push_back(Emitter(event.getPos()));
 }
 
-void FireworksApp::update()
-{
+void FireworksApp::mouseDrag(MouseEvent event) {
+    mouseDown(event);
+}
+
+void FireworksApp::update() {
     for (auto emitIter = emitters.begin(); emitIter != emitters.end(); ++emitIter) {
         emitIter->update();
         if (emitIter->isDone()) emitIter = emitters.erase(emitIter);
@@ -41,8 +42,7 @@ void FireworksApp::update()
     printf("%.2f FPS\n", getAverageFps());
 }
 
-void FireworksApp::draw()
-{
+void FireworksApp::draw() {
 	gl::clear(Color(0, 0, 0));
     for (auto emitIter = emitters.begin(); emitIter != emitters.end(); ++emitIter) {
         emitIter->draw();
