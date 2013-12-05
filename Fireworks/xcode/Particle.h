@@ -13,7 +13,7 @@
 
 class Particle {
 public:
-    Particle(float x, float y, ci::Vec3f color);
+    Particle(float x, float y, ci::Vec3f hsvColor);
     void draw();
     void update();
     bool isDead();
@@ -32,7 +32,7 @@ private:
     float mVY;
     float mA;
     
-    ci::Vec3f mColor;
+    ci::Vec3f mHSVColor;
 };
 
 #endif /* defined(__Fireworks__Particle__) */

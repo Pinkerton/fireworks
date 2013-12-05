@@ -15,7 +15,7 @@ using namespace ci;
 Emitter::Emitter(ci::Vec2f loc) {
     mLoc = loc;
     // http://stackoverflow.com/a/43235
-    Vec3f baseColor = Utils::randRGB();
+    Vec3f baseColor = Utils::randHSV();
     for (int i = 0; i < NUM_PARTICLES; ++i) {
         mParticles.push_back(Particle(mLoc.x, mLoc.y, baseColor));
     }

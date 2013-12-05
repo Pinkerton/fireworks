@@ -13,10 +13,10 @@
 
 using namespace ci;
 
-Particle::Particle(float x, float y, Vec3f color) {
+Particle::Particle(float x, float y, Vec3f hsvColor) {
     mX = x;
     mY = y;
-    mColor = color;
+    mHSVColor = hsvColor;
     
     float randScalar = Rand::randFloat();
 
@@ -33,7 +33,7 @@ Particle::Particle(float x, float y, Vec3f color) {
 }
 
 void Particle::draw() {
-    gl::color(Utils::toColor(mColor));
+    gl::color(Utils::toColor(Utils::hsvToRGB(mHSVColor)));
     gl::drawSolidCircle(Vec2f(mX, mY), mRad);
 }
 
@@ -45,11 +45,13 @@ void Particle::update() {
 }
 
 bool Particle::isDead() {
-    return mLife <= 0;
+    return mLife <= 0 || mHSVColor.z <= 0;
 }
 
 void Particle::fade(int time) {
+    
     mLife -= time;
+    mHSVColor.z -= .015;
 }
 
 float Particle::getX() { return mX; }
