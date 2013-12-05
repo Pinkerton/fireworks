@@ -19,6 +19,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		E411057F184FDE6800641BBF /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E411057D184FDE6800641BBF /* Emitter.cpp */; };
 		E4110582184FDFF900641BBF /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4110580184FDFF900641BBF /* Particle.cpp */; };
+		E42B824118512CF000322CDD /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E42B823F18512CF000322CDD /* Utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		E411057E184FDE6800641BBF /* Emitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emitter.h; sourceTree = "<group>"; };
 		E4110580184FDFF900641BBF /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
 		E4110581184FDFF900641BBF /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		E42B823F18512CF000322CDD /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		E42B824018512CF000322CDD /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 				E411057D184FDE6800641BBF /* Emitter.cpp */,
 				DACC9CCC4A3D4302B4D2ED0C /* FireworksApp.cpp */,
 				E4110580184FDFF900641BBF /* Particle.cpp */,
+				E42B823F18512CF000322CDD /* Utils.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -132,6 +136,7 @@
 				1A6D94131C32418B988C1994 /* Fireworks_Prefix.pch */,
 				E4110581184FDFF900641BBF /* Particle.h */,
 				AECD7C4521F945F2B255A1E0 /* Resources.h */,
+				E42B824018512CF000322CDD /* Utils.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				E411057F184FDE6800641BBF /* Emitter.cpp in Sources */,
 				E4110582184FDFF900641BBF /* Particle.cpp in Sources */,
 				59D2E7EEC26A41FBB047DB03 /* FireworksApp.cpp in Sources */,
+				E42B824118512CF000322CDD /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

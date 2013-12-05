@@ -9,10 +9,11 @@
 #include "Particle.h"
 #include "cinder/Rand.h"
 #include "cinder/gl/gl.h"
+#include "utils.h"
 
 using namespace ci;
 
-Particle::Particle(float x, float y, Color color) {
+Particle::Particle(float x, float y, Vec3f color) {
     mX = x;
     mY = y;
     mColor = color;
@@ -32,7 +33,7 @@ Particle::Particle(float x, float y, Color color) {
 }
 
 void Particle::draw() {
-    gl::color(mColor);
+    gl::color(Utils::toColor(mColor));
     gl::drawSolidCircle(Vec2f(mX, mY), mRad);
 }
 
@@ -41,7 +42,6 @@ void Particle::update() {
     mX += mVX;
     mY += mVY;
     mVY += mA;
-    //printf("%f, %f\n", mX, mY);
 }
 
 bool Particle::isDead() {

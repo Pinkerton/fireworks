@@ -22,11 +22,6 @@ public:
     
     
 private:
-    ci::Vec3f randHSV();
-    ci::Color hsvToRGB(ci::Vec3f hsv);
-    float rgbToOGL(float value);
-    float goldenRatio(float value);
-    
     std::list<Particle> mParticles;
     ci::Vec2f mLoc;
     
