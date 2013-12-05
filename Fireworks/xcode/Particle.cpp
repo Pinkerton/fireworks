@@ -19,15 +19,15 @@ Particle::Particle(float x, float y, Vec3f hsvColor) {
     mHSVColor = hsvColor;
     
     float randScalar = Rand::randFloat();
+    float vMax = 15.0;
 
-    mVX = Rand::randFloat(-15.0, 15.0);
-    mVY = sqrtf(225 - mVX * mVX);
+    mVX = Rand::randFloat(-vMax, vMax);
+    mVY = sqrtf((vMax * vMax) - mVX * mVX);
     mVY *= Rand::randBool() ? -1 : 1;
     
     mVX *= randScalar;
     mVY *= randScalar;
     
-    mLife = 1000;
     mRad = 5;
     mA = 0.8f;
 }
@@ -49,8 +49,6 @@ bool Particle::isDead() {
 }
 
 void Particle::fade(int time) {
-    
-    mLife -= time;
     mHSVColor.z -= .015;
 }
 

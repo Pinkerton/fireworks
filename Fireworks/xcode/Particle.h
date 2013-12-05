@@ -23,7 +23,6 @@ public:
     float getY();
     
 private:
-    int mLife;
     int mRad;
     
     float mX;
