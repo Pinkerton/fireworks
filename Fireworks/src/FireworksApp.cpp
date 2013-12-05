@@ -39,7 +39,7 @@ void FireworksApp::update() {
         emitIter->update();
         if (emitIter->isDone()) emitIter = emitters.erase(emitIter);
     }
-    printf("%.2f FPS\n", getAverageFps());
+    //printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {

@@ -12,14 +12,15 @@
 
 using namespace ci;
 
-Particle::Particle(float x, float y) {
+Particle::Particle(float x, float y, Color color) {
     mX = x;
     mY = y;
+    mColor = color;
     
     float randScalar = Rand::randFloat();
 
-    mVX = Rand::randFloat(-5.0, 5.0);
-    mVY = sqrtf(25 - mVX * mVX);
+    mVX = Rand::randFloat(-15.0, 15.0);
+    mVY = sqrtf(225 - mVX * mVX);
     mVY *= Rand::randBool() ? -1 : 1;
     
     mVX *= randScalar;
@@ -27,10 +28,11 @@ Particle::Particle(float x, float y) {
     
     mLife = 1000;
     mRad = 5;
-    mA = 0.2;
+    mA = 0.8f;
 }
 
 void Particle::draw() {
+    gl::color(mColor);
     gl::drawSolidCircle(Vec2f(mX, mY), mRad);
 }
 
