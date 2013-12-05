@@ -71,12 +71,10 @@ ci::Color Emitter::hsvToRGB(Vec3f hsv) {
     
     float m = v - c;
     
-    //printf("%f, %f, %f\n", r1+m, g1+m, b1+m);
     float r = r1 + m;
     float g = g1 + m;
     float b = b1 + m;
     
-    //printf("%.2f, %.2f, %.2f\n", r, g, b);
     return Color(r, g, b);
 }
 
@@ -87,7 +85,5 @@ float Emitter::rgbToOGL(float value) {
 
 float Emitter::goldenRatio(float value) {
     float conjugate = 0.618033988749895;
-    float fmod = value + std::fmod(value + conjugate, 1.0);
-    printf("fmod = %f\n", fmod);
     return value + std::fmod(value + conjugate, 1.0);
 }
