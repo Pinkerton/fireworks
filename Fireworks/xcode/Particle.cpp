@@ -17,7 +17,7 @@ Particle::Particle(float x, float y) {
     mY = y;
     mVX = Rand::randFloat(-5.0, 5.0);
     mVY = Rand::randFloat(-5.0, 5.0);
-    printf("%f, %f\n", mVX, mVY);
+    //printf("%f, %f\n", mVX, mVY);
     mLife = 10000;
     mRad = 10;
     mA = 0.1;

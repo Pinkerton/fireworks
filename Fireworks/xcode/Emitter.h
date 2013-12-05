@@ -24,7 +24,7 @@ private:
     std::list<Particle> mParticles;
     ci::Vec2f mLoc;
     
-    int NUM_PARTICLES = 5;
+    int NUM_PARTICLES = 100;
 };
 
 #endif /* defined(__Fireworks__Emitter__) */

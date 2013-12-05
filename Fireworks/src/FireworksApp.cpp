@@ -25,7 +25,6 @@ void FireworksApp::prepareSettings(Settings *settings)
 
 void FireworksApp::setup()
 {
-    
 }
 
 void FireworksApp::mouseDown( MouseEvent event )
@@ -39,6 +38,7 @@ void FireworksApp::update()
         emitIter->update();
         if (emitIter->isDone()) emitIter = emitters.erase(emitIter);
     }
+    printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw()
