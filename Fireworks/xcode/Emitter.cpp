@@ -40,4 +40,8 @@ bool Emitter::isDone() {
     return mParticles.size() == 0;
 }
 
+Vec2f Emitter::getLoc() {
+    return Vec2f(mLoc);
+}
+
 

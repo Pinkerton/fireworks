@@ -19,7 +19,7 @@ public:
     void draw();
     void update();
     bool isDone();
-    
+    ci::Vec2f getLoc();
     
 private:
     std::list<Particle> mParticles;

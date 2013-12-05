@@ -35,17 +35,20 @@ void FireworksApp::mouseDrag(MouseEvent event) {
 }
 
 void FireworksApp::update() {
-    for (auto emitIter = emitters.begin(); emitIter != emitters.end(); ++emitIter) {
-        emitIter->update();
-        if (emitIter->isDone()) emitIter = emitters.erase(emitIter);
+    for (auto e = emitters.begin(); e != emitters.end(); ++e) {
+        e->update();
+        if (e->isDone()) {
+            emitters.push_back(Emitter(e->getLoc()));
+            e = emitters.erase(e);
+        }
     }
     //printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {
 	gl::clear(Color(0, 0, 0));
-    for (auto emitIter = emitters.begin(); emitIter != emitters.end(); ++emitIter) {
-        emitIter->draw();
+    for (auto e = emitters.begin(); e != emitters.end(); ++e) {
+        e->draw();
     }
 }
 

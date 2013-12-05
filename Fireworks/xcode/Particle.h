@@ -17,7 +17,8 @@ public:
     void draw();
     void update();
     bool isDead();
-    void fade(int time);
+    void fade();
+    void spawnEmitter();
     
     float getX();
     float getY();

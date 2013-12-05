@@ -7,6 +7,7 @@
 //
 
 #include "Particle.h"
+#include "Emitter.h"
 #include "cinder/Rand.h"
 #include "cinder/gl/gl.h"
 #include "utils.h"
@@ -38,17 +39,21 @@ void Particle::draw() {
 }
 
 void Particle::update() {
-    fade(1);
+    fade();
     mX += mVX;
     mY += mVY;
     mVY += mA;
 }
 
 bool Particle::isDead() {
-    return mLife <= 0 || mHSVColor.z <= 0;
+    return mHSVColor.z <= 0;
 }
 
-void Particle::fade(int time) {
+void Particle::spawnEmitter() {
+    Emitter e = Emitter(Vec2f(mX, mY));
+}
+
+void Particle::fade() {
     mHSVColor.z -= .015;
 }
 
