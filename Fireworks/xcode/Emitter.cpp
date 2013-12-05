@@ -6,12 +6,15 @@
 //
 //
 
+#include "cinder/app/AppBasic.h"
 #include "Emitter.h"
+
+using namespace ci;
 
 Emitter::Emitter(ci::Vec2f loc) {
     mLoc = loc;
     for (int i = 0; i < NUM_PARTICLES; ++i) {
-        mParticles.push_back(Particle(mLoc));
+        mParticles.push_back(Particle(mLoc.x, mLoc.y));
     }
 }
 
@@ -23,9 +26,9 @@ void Emitter::draw() {
 }
 
 void Emitter::update() {
-    for (auto partIter = mParticles.begin(); partIter != mParticles.end(); ++ partIter) {
-        if (partIter->isDead()) partIter = mParticles.erase(partIter);
-        else partIter->update();
+    for (auto p = mParticles.begin(); p != mParticles.end(); ++ p) {
+        if (p->getX() > app::getWindowWidth() || p->getY() > app::getWindowHeight() || p->isDead()) p = mParticles.erase(p);
+        else p->update();
         
     }
 }

@@ -12,26 +12,27 @@
 
 using namespace ci;
 
-Particle::Particle(Vec2f loc) {
-    mLoc = loc;
-    mDir = Rand::randVec2f();
-    mVel = Vec2f(Rand::randFloat(5.0f), Rand::randFloat(5.0f));
+Particle::Particle(float x, float y) {
+    mX = x;
+    mY = y;
+    mVX = Rand::randFloat(-5.0, 5.0);
+    mVY = Rand::randFloat(-5.0, 5.0);
+    printf("%f, %f\n", mVX, mVY);
     mLife = 10000;
     mRad = 10;
-    mAcc = 0.1;
+    mA = 0.1;
 }
 
 void Particle::draw() {
-    gl::drawSolidCircle(mLoc, mRad);
+    gl::drawSolidCircle(Vec2f(mX, mY), mRad);
 }
 
 void Particle::update() {
     fade(1);
-    mDir += mVel;
-    mVel += mAcc;
-    printf("%f, %f\n", mDir.x, mDir.y);
-    mLoc += mDir * mVel;
-    //mVel -= mAcc;
+    mX += mVX;
+    mY += mVY;
+    mVY += mA;
+    //printf("%f, %f\n", mX, mY);
 }
 
 bool Particle::isDead() {
@@ -41,3 +42,7 @@ bool Particle::isDead() {
 void Particle::fade(int time) {
     mLife -= time;
 }
+
+float Particle::getX() { return mX; }
+
+float Particle::getY() { return mY; }

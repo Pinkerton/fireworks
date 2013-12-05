@@ -13,19 +13,24 @@
 
 class Particle {
 public:
-    Particle(ci::Vec2f loc);
+    Particle(float x, float y);
     void draw();
     void update();
     bool isDead();
     void fade(int time);
     
+    float getX();
+    float getY();
+    
 private:
     int mLife;
-    ci::Vec2f mLoc;
-    ci::Vec2f mDir;
-    ci::Vec2f mVel;
     int mRad;
-    float mAcc;
+    
+    float mX;
+    float mY;
+    float mVX;
+    float mVY;
+    float mA;
 };
 
 #endif /* defined(__Fireworks__Particle__) */

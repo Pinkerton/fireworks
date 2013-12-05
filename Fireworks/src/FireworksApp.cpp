@@ -20,7 +20,7 @@ class FireworksApp : public AppNative {
 void FireworksApp::prepareSettings(Settings *settings)
 {
 	settings->setWindowSize( 800, 600 );
-	settings->setFrameRate( 20.0f );
+	settings->setFrameRate( 60.0f );
 }
 
 void FireworksApp::setup()
