@@ -21,6 +21,7 @@ ci::Vec3f Utils::randHSV() {
     float h = goldenRatio(Rand::randFloat(0.0, 360.0));
     float s = 0.5;
     float v = 0.95;
+    // TODO: Define a type for storing these colors
     return Vec3f(h, s, v);
 }
 

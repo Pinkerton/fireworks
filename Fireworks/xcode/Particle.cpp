@@ -51,7 +51,7 @@ bool Particle::isDead() {
 }
 
 bool Particle::shouldEmit() {
-    if (mHSVColor.z <= 0.7 && !mEmitted && Rand::randInt(0, 2000) == 555) {
+    if (mHSVColor.z <= 0.7 && !mEmitted && Rand::randInt(0, 2000) == 1) {
         mEmitted = true;
         return true;
     }
