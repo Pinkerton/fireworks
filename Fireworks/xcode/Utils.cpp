@@ -16,6 +16,7 @@ ci::Vec3f Utils::randRGB() {
 }
 
 ci::Vec3f Utils::randHSV() {
+    // http://stackoverflow.com/a/43235
     // http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/
     float h = goldenRatio(Rand::randFloat(0.0, 360.0));
     float s = 0.5;

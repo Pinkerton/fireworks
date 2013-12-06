@@ -13,19 +13,22 @@
 
 #include "Particle.h"
 
+using namespace ci;
+using namespace std;
+
 class Emitter {
 public:
-    Emitter(ci::Vec2f pos);
-    Emitter(ci::Vec2f pos, bool respawn);
+    Emitter(Vec2f pos);
+    Emitter(Vec2f pos, bool respawn);
     void draw();
     void update();
     bool isDone();
-    ci::Vec2f getLoc();
     bool shouldRespawn();
+    Vec2f getLoc();
     
 private:
-    std::list<Particle> mParticles;
-    ci::Vec2f mLoc;
+    list<Particle> mParticles;
+    Vec2f mLoc;
     bool mRespawn;
     
     int NUM_PARTICLES = 100;

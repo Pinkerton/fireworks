@@ -2,7 +2,6 @@
 //  Emitter.cpp
 //  Fireworks
 //
-//  Created by Stephen Pinkerton on 12/4/13.
 //
 //
 
@@ -14,14 +13,13 @@
 
 using namespace ci;
 
-Emitter::Emitter(ci::Vec2f loc) {
+Emitter::Emitter(Vec2f loc) {
     Emitter(loc, false);
 }
 
-Emitter::Emitter(ci::Vec2f loc, bool respawn) {
+Emitter::Emitter(Vec2f loc, bool respawn) {
     mLoc = loc;
     mRespawn = respawn;
-    // http://stackoverflow.com/a/43235
     Vec3f baseColor = Utils::randHSV();
     for (int i = 0; i < NUM_PARTICLES; ++i) {
         mParticles.push_back(Particle(mLoc.x, mLoc.y, baseColor));
@@ -29,30 +27,21 @@ Emitter::Emitter(ci::Vec2f loc, bool respawn) {
 }
 
 void Emitter::draw() {
-    for (auto p = mParticles.begin(); p != mParticles.end(); ++p) {
-        p->draw();
-        
-    }
+    for (auto p = mParticles.begin(); p != mParticles.end(); ++p) p->draw();
 }
 
 void Emitter::update() {
     for (auto p = mParticles.begin(); p != mParticles.end(); ++ p) {
         if (p->getX() > app::getWindowWidth() || p->getY() > app::getWindowHeight() || p->isDead()) p = mParticles.erase(p);
         else {
-            if (p->shouldEmit()) { printf("adding\n"); ParticleSystem::addEmitter(p->getLoc()); }
+            if (p->shouldEmit()) ParticleSystem::addEmitter(p->getLoc());
             p->update();
         }
     }
 }
 
-bool Emitter::isDone() {
-    return mParticles.size() == 0;
-}
+bool Emitter::isDone() { return mParticles.size() == 0; }
 
-Vec2f Emitter::getLoc() {
-    return Vec2f(mLoc);
-}
+Vec2f Emitter::getLoc() { return mLoc; }
 
-bool Emitter::shouldRespawn() {
-    return mRespawn;
-}
+bool Emitter::shouldRespawn() { return mRespawn; }
