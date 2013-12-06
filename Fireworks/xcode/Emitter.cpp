@@ -1,7 +1,8 @@
 //
-//  Emitter.cpp
+//  Emitter.h
 //  Fireworks
 //
+//  Created by Stephen Pinkerton on 12/4/13.
 //
 //
 
