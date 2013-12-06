@@ -429,9 +429,9 @@ t1386178845
 s459637
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp
-c0000000052A147C60000000000000506
-t1386301382
-s1286
+c0000000052A155830000000000000508
+t1386304899
+s1288
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.h
 c0000000052A12F8500000000000000A7
@@ -439,9 +439,9 @@ t1386295173
 s167
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp
-c0000000052A13F1200000000000004AA
-t1386299154
-s1194
+c0000000052A1556A00000000000004EE
+t1386304874
+s1262
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h
 c0000000052A117BE0000000000000234
@@ -459,14 +459,14 @@ t1386178845
 s1122
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp
-c0000000052A12F190000000000000482
-t1386295065
-s1154
+c0000000052A156ED000000000000052A
+t1386305261
+s1322
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
-c0000000052A12EEC0000000000000255
-t1386295020
-s597
+c0000000052A14B170000000000000279
+t1386302231
+s633
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp
 c0000000052A13ED000000000000003EE
@@ -489,7 +489,7 @@ t1386281098
 s433
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app
-t1386301090
+t1386305239
 s102
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/Info.plist
@@ -497,8 +497,8 @@ t1386178894
 s1489
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/MacOS/Fireworks
-t1386301387
-s2817680
+t1386305264
+s2818048
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/PkgInfo
 t1386178894
@@ -509,8 +509,8 @@ t1386178894
 s459637
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o
-t1386299156
-s2070296
+t1386304878
+s2071068
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Fireworks.LinkFileList
 c0000000052A139A00000000000000268
@@ -518,16 +518,16 @@ t1386297760
 s616
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o
-t1386301385
-s1660592
+t1386304910
+s1660128
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o
-t1386297762
-s136420
+t1386305263
+s110960
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o
-t1386299091
-s1485524
+t1386302293
+s1485532
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Utils.o
 t1386281242
@@ -4529,11 +4529,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies323abc477f51b841^58abbe477f51b841^---0#1#1#--18"Check dependencies36"EEED4BEC-F2A2-46EB-903C-E33361B6E29F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4b036b6e8e51b841^d95e6b6e8e51b841^---0#1#1#--18"Check dependencies36"7B996148-FC7E-4589-A013-425D44BAAD59-
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407991955.214186
-e407991956.682598
+s407997675.937243
+e407997678.296441
 r1
 xCompileC
 x./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o
@@ -4543,16 +4543,17 @@ xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp
+d/Users/pinkerton/dev/lib/cinder_0.8.5_mac/include/cinder/Rand.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Utils.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp156"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler56f136937651b841^48c2ae947651b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp0000000000000000^2954"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o36"C3161ABB-2977-4012-BA98-17ACFC64C07A-
-b84708E99-1B53-4A83-84DA-6D36D9151A2C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp156"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8120f0eb8c51b841^69e44bee8c51b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp0000000000000000^2954"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o36"9515B532-0BE6-49D5-8F98-050F24E35E8A-
+b94384510-B572-42FB-8B63-22C4D51E1BBA
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407994183.753926
-e407994185.919616
+s407997709.097193
+e407997710.758833
 r1
 xCompileC
 x./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o
@@ -4567,12 +4568,12 @@ d/Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp211"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7616c1477f51b841^486ceb497f51b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp0000000000000000^3027"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o36"162D0C25-2F8C-4424-8128-DD83D73B4223-
-bB05E0007-1DF9-4F85-B847-92A6C2451FA1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp211"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4cfd180d8d51b841^f645c20e8d51b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp0000000000000000^3027"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/FireworksApp.o36"3EF3903E-AFC1-4E3A-B0F7-E0F608479BB5-
+b52FE53F9-3CD0-49D9-9CAB-66044699A21C
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407990560.189096
-e407990562.400400
+s407998062.441844
+e407998063.493196
 r1
 xCompileC
 x./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o
@@ -4586,12 +4587,12 @@ d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h
 d/Users/pinkerton/dev/lib/cinder_0.8.5_mac/include/cinder/Rand.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/utils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp158"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf08630207151b841^028166227151b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp0000000000000000^2960"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o36"58940A46-15C2-47FB-AAB0-D6FC1E200974-
-b680D0CB6-6C89-4632-911A-A66DF66638F5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp158"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3f3a716e8e51b841^85447e6f8e51b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp0000000000000000^2960"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o36"2B573581-00A4-41E4-AEC0-BAED16B8ADD2-
+bCEA3EE2A-09D8-42E2-837A-F7035DD37AC8
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407991889.867676
-e407991891.129538
+s407995091.392723
+e407995093.473575
 r1
 xCompileC
 x./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o
@@ -4604,8 +4605,8 @@ d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h
 d/Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp170"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc635de517651b841^5e2b21537651b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp0000000000000000^2996"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o36"60D52127-CE8A-435C-B344-C501C905C984-
-b209EF45A-C3AF-43EC-BBF8-E654A402D899
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp170"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler94be64d38251b841^c93d79d58251b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp0000000000000000^2996"CompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-generated-files.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-own-target-headers.hmap -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-all-target-headers.hmap -iquote /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Fireworks-project-headers.hmap -iquote../../../lib/cinder_0.8.5_mac/include -iquote../include -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/include -I../../../lib/cinder_0.8.5_mac/boost -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources/i386 -I/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/DerivedSources -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -include /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch -MMD -MT dependencies -MF /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.d --serialize-diagnostics /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.dia -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.cpp -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/ParticleSystem.o36"DC13097D-8A42-4654-B41C-0B3BB7BDD0C3-
+bDCF462B7-B286-4509-B2E3-B5D071278FD1
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Utils.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s407974040.420678
@@ -4635,8 +4636,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy bu
 b4E9D4F32-122D-4BC4-B593-9C4D32F222F3
 
 CLd /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks normal i386
-s407994185.932448
-e407994187.101878
+s407998063.495996
+e407998064.237867
 r1
 xLd
 x/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks
@@ -4662,6 +4663,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4691,13 +4699,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
@@ -4724,8 +4725,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks67"Ld ./build/Debug/Fireworks.app/Contents/MacOS/Fireworks normal i38668caee497f51b841^66151a4b7f51b841^---0#0#1#--1193"Ld ./build/Debug/Fireworks.app/Contents/MacOS/Fireworks normal i386    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -filelist /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Fireworks.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Fireworks_dependency_info.dat -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks36"9911DE2C-1334-46C3-9818-70B006CB1A8D-
-bB05E0007-1DF9-4F85-B847-92A6C2451FA1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks67"Ld ./build/Debug/Fireworks.app/Contents/MacOS/Fireworks normal i386840d7f6f8e51b841^a3e53c708e51b841^---0#0#1#--1193"Ld ./build/Debug/Fireworks.app/Contents/MacOS/Fireworks normal i386    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -F/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug -filelist /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Fireworks.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Fireworks_dependency_info.dat -o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app/Contents/MacOS/Fireworks36"E8384CFA-DA0F-43FA-A804-D082CD04CAB4-
+bCEA3EE2A-09D8-42E2-837A-F7035DD37AC8
 
 CProcessInfoPlistFile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/Info.plist /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Info.plist
 s407871694.927186
@@ -5547,11 +5548,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precomp
 b4E9D4F32-122D-4BC4-B593-9C4D32F222F3
 
 CTouch /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app
-s407994187.102658
-e407994187.112205
+s407998064.238668
+e407998064.242424
 r1
 xTouch
 x/Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app33"Touch ./build/Debug/Fireworks.app4c511a4b7f51b841^a6ba1c4b7f51b841^---0#0#1#--185"Touch ./build/Debug/Fireworks.app    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    /usr/bin/touch -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app36"00F39EB9-E4EF-4388-AC25-F3CC9494A5AF-
-bB05E0007-1DF9-4F85-B847-92A6C2451FA1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app33"Touch ./build/Debug/Fireworks.app85223d708e51b841^1f123e708e51b841^---0#0#1#--185"Touch ./build/Debug/Fireworks.app    cd /Users/pinkerton/dev/Fireworks/Fireworks/xcode    /usr/bin/touch -c /Users/pinkerton/dev/Fireworks/Fireworks/xcode/./build/Debug/Fireworks.app36"E9D249CE-B692-463C-80AC-0DE6B2736690-
+bCEA3EE2A-09D8-42E2-837A-F7035DD37AC8
 

@@ -31,6 +31,7 @@ Particle::Particle(float x, float y, Vec3f hsvColor) {
     
     mRad = 5;
     mA = 0.8f;
+    mEmitted = false;
 }
 
 void Particle::draw() {
@@ -45,21 +46,23 @@ void Particle::update() {
     mVY += mA;
 }
 
-bool Particle::almostDead() {
-    return mHSVColor.z <= .02;
-}
-
 bool Particle::isDead() {
     return mHSVColor.z <= 0;
 }
 
-void Particle::spawnEmitter() {
-    Emitter e = Emitter(Vec2f(mX, mY));
+bool Particle::shouldEmit() {
+    if (mHSVColor.z <= 0.7 && !mEmitted && Rand::randInt(0, 2000) == 555) {
+        mEmitted = true;
+        return true;
+    }
+    return false;
 }
 
 void Particle::fade() {
     mHSVColor.z -= .015;
 }
+
+Vec2f Particle::getLoc() { return Vec2f(mX, mY); }
 
 float Particle::getX() { return mX; }
 

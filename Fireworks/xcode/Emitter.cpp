@@ -7,6 +7,7 @@
 //
 
 #include "cinder/app/AppBasic.h"
+#include "cinder/Rand.h"
 #include "Utils.h"
 #include "Emitter.h"
 #include "ParticleSystem.h"
@@ -37,9 +38,10 @@ void Emitter::draw() {
 void Emitter::update() {
     for (auto p = mParticles.begin(); p != mParticles.end(); ++ p) {
         if (p->getX() > app::getWindowWidth() || p->getY() > app::getWindowHeight() || p->isDead()) p = mParticles.erase(p);
-        //else if (p->almostDead()) ParticleSystem::addEmitter(mLoc);
-        else p->update();
-        
+        else {
+            if (p->shouldEmit()) { printf("adding\n"); ParticleSystem::addEmitter(p->getLoc()); }
+            p->update();
+        }
     }
 }
 

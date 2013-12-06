@@ -11,16 +11,18 @@
 
 #include <iostream>
 
+using namespace ci;
+
 class Particle {
 public:
-    Particle(float x, float y, ci::Vec3f hsvColor);
+    Particle(float x, float y, Vec3f hsvColor);
     void draw();
     void update();
-    bool almostDead();
+    bool shouldEmit();
     bool isDead();
     void fade();
-    void spawnEmitter();
     
+    Vec2f getLoc();
     float getX();
     float getY();
     
@@ -32,6 +34,8 @@ private:
     float mVX;
     float mVY;
     float mA;
+    
+    bool mEmitted;
     
     ci::Vec3f mHSVColor;
 };
