@@ -13,12 +13,15 @@ class FireworksApp : public AppNative {
     void prepareSettings(Settings *settings);
 	void setup();
 	void mouseDown(MouseEvent event);
+    void mouseUp(MouseEvent event);
     void mouseDrag(MouseEvent event);
 	void update();
 	void draw();
     
 private:
     ParticleSystem mPartSystem;
+    bool mClicked;
+    MouseEvent mLastEvent;
 };
 
 void FireworksApp::prepareSettings(Settings *settings) {
@@ -31,16 +34,25 @@ void FireworksApp::setup() {
 }
 
 void FireworksApp::mouseDown(MouseEvent event) {
+    mClicked = true;
     mPartSystem.mouseDown(event);
+    mLastEvent = event;
+}
+
+void FireworksApp::mouseUp(MouseEvent event) {
+    mClicked = false;
 }
 
 void FireworksApp::mouseDrag(MouseEvent event) {
     mPartSystem.mouseDrag(event);
+    mLastEvent = event;
 }
 
 void FireworksApp::update() {
     mPartSystem.update();
-    //printf("%.2f FPS\n", getAverageFps());
+    if (mClicked) mouseDown(mLastEvent);
+    
+    printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {
