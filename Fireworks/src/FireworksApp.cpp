@@ -15,8 +15,14 @@ class FireworksApp : public AppNative {
     void mouseDrag(MouseEvent event);
 	void update();
 	void draw();
-    std::list<Emitter> emitters;
+    
+    static void addEmitter(Vec2f loc);
+    
+private:
+    static std::list<Emitter> emitters;
 };
+
+std::list<Emitter> FireworksApp::emitters = std::list<Emitter>();
 
 void FireworksApp::prepareSettings(Settings *settings) {
 	settings->setWindowSize(1000, 800);
@@ -27,7 +33,7 @@ void FireworksApp::setup() {
 }
 
 void FireworksApp::mouseDown(MouseEvent event) {
-    emitters.push_back(Emitter(event.getPos(), true));
+    addEmitter(event.getPos());
 }
 
 void FireworksApp::mouseDrag(MouseEvent event) {
@@ -38,11 +44,12 @@ void FireworksApp::update() {
     for (auto e = emitters.begin(); e != emitters.end(); ++e) {
         e->update();
         if (e->isDone()) {
-            if (e->shouldRespawn()) emitters.push_back(Emitter(e->getLoc()));
+            // this is causing sluggishness for some reason
+            //if (e->shouldRespawn()) addEmitter(e->getLoc());
             e = emitters.erase(e);
         }
     }
-    //printf("%.2f FPS\n", getAverageFps());
+    printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {
@@ -52,4 +59,8 @@ void FireworksApp::draw() {
     }
 }
 
-CINDER_APP_NATIVE( FireworksApp, RendererGl )
+void FireworksApp::addEmitter(Vec2f loc) {
+    emitters.push_back(Emitter(loc, false));
+}
+
+CINDER_APP_NATIVE(FireworksApp, RendererGl)

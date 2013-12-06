@@ -27,8 +27,8 @@ Emitter::Emitter(ci::Vec2f loc, bool respawn) {
 }
 
 void Emitter::draw() {
-    for (auto partIter = mParticles.begin(); partIter != mParticles.end(); ++partIter) {
-        partIter->draw();
+    for (auto p = mParticles.begin(); p != mParticles.end(); ++p) {
+        p->draw();
         
     }
 }
