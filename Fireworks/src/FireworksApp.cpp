@@ -1,7 +1,8 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
-#include "Emitter.h"
+#include "FireworksApp.h"
+#include "ParticleSystem.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -16,13 +17,9 @@ class FireworksApp : public AppNative {
 	void update();
 	void draw();
     
-    static void addEmitter(Vec2f loc);
-    
 private:
-    static std::list<Emitter> emitters;
+    ParticleSystem mPartSystem;
 };
-
-std::list<Emitter> FireworksApp::emitters = std::list<Emitter>();
 
 void FireworksApp::prepareSettings(Settings *settings) {
 	settings->setWindowSize(1000, 800);
@@ -30,37 +27,24 @@ void FireworksApp::prepareSettings(Settings *settings) {
 }
 
 void FireworksApp::setup() {
+    mPartSystem = ParticleSystem();
 }
 
 void FireworksApp::mouseDown(MouseEvent event) {
-    addEmitter(event.getPos());
+    mPartSystem.mouseDown(event);
 }
 
 void FireworksApp::mouseDrag(MouseEvent event) {
-    mouseDown(event);
+    mPartSystem.mouseDrag(event);
 }
 
 void FireworksApp::update() {
-    for (auto e = emitters.begin(); e != emitters.end(); ++e) {
-        e->update();
-        if (e->isDone()) {
-            // this is causing sluggishness for some reason
-            //if (e->shouldRespawn()) addEmitter(e->getLoc());
-            e = emitters.erase(e);
-        }
-    }
-    printf("%.2f FPS\n", getAverageFps());
+    mPartSystem.update();
+    //printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {
-	gl::clear(Color(0, 0, 0));
-    for (auto e = emitters.begin(); e != emitters.end(); ++e) {
-        e->draw();
-    }
-}
-
-void FireworksApp::addEmitter(Vec2f loc) {
-    emitters.push_back(Emitter(loc, false));
+    mPartSystem.draw();
 }
 
 CINDER_APP_NATIVE(FireworksApp, RendererGl)

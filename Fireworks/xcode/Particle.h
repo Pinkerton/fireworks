@@ -16,6 +16,7 @@ public:
     Particle(float x, float y, ci::Vec3f hsvColor);
     void draw();
     void update();
+    bool almostDead();
     bool isDead();
     void fade();
     void spawnEmitter();

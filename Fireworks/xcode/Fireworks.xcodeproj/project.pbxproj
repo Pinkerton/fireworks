@@ -20,6 +20,7 @@
 		E411057F184FDE6800641BBF /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E411057D184FDE6800641BBF /* Emitter.cpp */; };
 		E4110582184FDFF900641BBF /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4110580184FDFF900641BBF /* Particle.cpp */; };
 		E42B824118512CF000322CDD /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E42B823F18512CF000322CDD /* Utils.cpp */; };
+		E42B824518516CE100322CDD /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E42B824318516CE100322CDD /* ParticleSystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		E4110581184FDFF900641BBF /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
 		E42B823F18512CF000322CDD /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		E42B824018512CF000322CDD /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E42B824318516CE100322CDD /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystem.cpp; sourceTree = "<group>"; };
+		E42B824418516CE100322CDD /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				DACC9CCC4A3D4302B4D2ED0C /* FireworksApp.cpp */,
 				E4110580184FDFF900641BBF /* Particle.cpp */,
 				E42B823F18512CF000322CDD /* Utils.cpp */,
+				E42B824318516CE100322CDD /* ParticleSystem.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -135,6 +139,7 @@
 				E411057E184FDE6800641BBF /* Emitter.h */,
 				1A6D94131C32418B988C1994 /* Fireworks_Prefix.pch */,
 				E4110581184FDFF900641BBF /* Particle.h */,
+				E42B824418516CE100322CDD /* ParticleSystem.h */,
 				AECD7C4521F945F2B255A1E0 /* Resources.h */,
 				E42B824018512CF000322CDD /* Utils.h */,
 			);
@@ -225,6 +230,7 @@
 				E411057F184FDE6800641BBF /* Emitter.cpp in Sources */,
 				E4110582184FDFF900641BBF /* Particle.cpp in Sources */,
 				59D2E7EEC26A41FBB047DB03 /* FireworksApp.cpp in Sources */,
+				E42B824518516CE100322CDD /* ParticleSystem.cpp in Sources */,
 				E42B824118512CF000322CDD /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

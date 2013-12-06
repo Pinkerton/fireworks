@@ -45,6 +45,10 @@ void Particle::update() {
     mVY += mA;
 }
 
+bool Particle::almostDead() {
+    return mHSVColor.z <= .02;
+}
+
 bool Particle::isDead() {
     return mHSVColor.z <= 0;
 }
