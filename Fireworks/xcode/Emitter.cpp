@@ -21,9 +21,10 @@ Emitter::Emitter(Vec2f loc) {
 Emitter::Emitter(Vec2f loc, bool respawn) {
     mLoc = loc;
     mRespawn = respawn;
+    float explosionRadius = Rand::randFloat(0.4, 1.0) * 16.0;
     Vec3f baseColor = Utils::randHSV();
     for (int i = 0; i < NUM_PARTICLES; ++i) {
-        mParticles.push_back(Particle(mLoc.x, mLoc.y, baseColor));
+        mParticles.push_back(Particle(mLoc.x, mLoc.y, baseColor, explosionRadius));
     }
 }
 

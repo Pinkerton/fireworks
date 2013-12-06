@@ -14,13 +14,13 @@
 
 using namespace ci;
 
-Particle::Particle(float x, float y, Vec3f hsvColor) {
+Particle::Particle(float x, float y, Vec3f hsvColor, float explosionRadius) {
     mX = x;
     mY = y;
     mHSVColor = hsvColor;
     
     float randScalar = Rand::randFloat();
-    float vMax = 15.0;
+    float vMax = explosionRadius;
 
     mVX = Rand::randFloat(-vMax, vMax);
     mVY = sqrtf((vMax * vMax) - mVX * mVX);
@@ -29,7 +29,7 @@ Particle::Particle(float x, float y, Vec3f hsvColor) {
     mVX *= randScalar;
     mVY *= randScalar;
     
-    mRad = 5;
+    mRad = sqrt(explosionRadius);
     mA = 0.8f;
     mEmitted = false;
 }

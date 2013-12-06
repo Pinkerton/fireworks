@@ -15,7 +15,7 @@ using namespace ci;
 
 class Particle {
 public:
-    Particle(float x, float y, Vec3f hsvColor);
+    Particle(float x, float y, Vec3f hsvColor, float explosionRadius);
     void draw();
     void update();
     bool shouldEmit();
