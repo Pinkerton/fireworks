@@ -27,7 +27,7 @@ void FireworksApp::setup() {
 }
 
 void FireworksApp::mouseDown(MouseEvent event) {
-    emitters.push_back(Emitter(event.getPos()));
+    emitters.push_back(Emitter(event.getPos(), true));
 }
 
 void FireworksApp::mouseDrag(MouseEvent event) {
@@ -38,7 +38,7 @@ void FireworksApp::update() {
     for (auto e = emitters.begin(); e != emitters.end(); ++e) {
         e->update();
         if (e->isDone()) {
-            emitters.push_back(Emitter(e->getLoc()));
+            if (e->shouldRespawn()) emitters.push_back(Emitter(e->getLoc()));
             e = emitters.erase(e);
         }
     }

@@ -13,7 +13,12 @@
 using namespace ci;
 
 Emitter::Emitter(ci::Vec2f loc) {
+    Emitter(loc, false);
+}
+
+Emitter::Emitter(ci::Vec2f loc, bool respawn) {
     mLoc = loc;
+    mRespawn = respawn;
     // http://stackoverflow.com/a/43235
     Vec3f baseColor = Utils::randHSV();
     for (int i = 0; i < NUM_PARTICLES; ++i) {
@@ -44,4 +49,6 @@ Vec2f Emitter::getLoc() {
     return Vec2f(mLoc);
 }
 
-
+bool Emitter::shouldRespawn() {
+    return mRespawn;
+}
