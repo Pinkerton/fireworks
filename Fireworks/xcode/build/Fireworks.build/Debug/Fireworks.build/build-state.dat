@@ -4,7 +4,6 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/Info.plist /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Info.plist
 cCpResource /Users/pinkerton/dev/Fireworks/Fireworks/resources/CinderApp.icns build/Debug/Fireworks.app/Contents/Resources/CinderApp.icns
-cCpResource /Users/pinkerton/dev/Fireworks/Fireworks/resources/boom.wav build/Debug/Fireworks.app/Contents/Resources/boom.wav
 cProcessPCH++ /var/folders/gq/4bt_sj755rx9mv7s43mb91f9ywjg9b/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Fireworks_Prefix-cusiiltmbhaorqbjgpceddemwoxo/Fireworks_Prefix.pch.pch Fireworks_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Particle.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -505,7 +504,7 @@ t2
 s0
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app
-t1386464871
+t1386464993
 s102
 
 N/Users/pinkerton/dev/Fireworks/Fireworks/xcode/build/Debug/Fireworks.app/Contents/Info.plist
@@ -4659,7 +4658,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies84806c5ffe53b841^8ae36c5ffe53b841^---0#1#1#--18"Check dependencies36"2D407EF3-3751-47DD-A9F7-2508F81DBB65-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies083e4ef8ef54b841^55fa91f8ef54b841^---0#1#1#--18"Check dependencies36"76D04E37-D7A3-4395-A19A-595C67952070-
 
 CCompileC ./build/Fireworks.build/Debug/Fireworks.build/Objects-normal/i386/Emitter.o /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s408157090.531182
