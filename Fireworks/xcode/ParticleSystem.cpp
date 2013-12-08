@@ -8,12 +8,16 @@
 
 #include "ParticleSystem.h"
 #include "Emitter.h"
+#include "cinder/audio/Output.h"
+#include "cinder/audio/Io.h"
+#include "Resources.h"
 
 using namespace ci;
 using namespace ci::app;
 using namespace std;
 
 std::list<Emitter> ParticleSystem::emitters = std::list<Emitter>();
+//audio::SourceRef ParticleSystem::mAudioSource = audio::load(loadResource(RES_BOOMWAV));
 
 void ParticleSystem::mouseDown(MouseEvent event) {
     addEmitter(event.getPos());
@@ -42,5 +46,6 @@ void ParticleSystem::draw() {
 }
 
 void ParticleSystem::addEmitter(Vec2f loc) {
+    //audio::Output::play(mAudioSource);
     emitters.push_back(Emitter(loc, false));
 }

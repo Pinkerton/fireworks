@@ -52,7 +52,7 @@ void FireworksApp::update() {
     mPartSystem.update();
     if (mClicked) mouseDown(mLastEvent);
     
-    printf("%.2f FPS\n", getAverageFps());
+    //printf("%.2f FPS\n", getAverageFps());
 }
 
 void FireworksApp::draw() {

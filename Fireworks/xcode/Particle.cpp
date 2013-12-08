@@ -29,7 +29,7 @@ Particle::Particle(float x, float y, Vec3f hsvColor, float explosionRadius) {
     mVX *= randScalar;
     mVY *= randScalar;
     
-    mRad = sqrt(explosionRadius);
+    mRad = sqrt(explosionRadius + 4);
     mA = 0.8f;
     mEmitted = false;
 }

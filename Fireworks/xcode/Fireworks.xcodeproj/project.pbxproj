@@ -48,6 +48,7 @@
 		E42B824018512CF000322CDD /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		E42B824318516CE100322CDD /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystem.cpp; sourceTree = "<group>"; };
 		E42B824418516CE100322CDD /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystem.h; sourceTree = "<group>"; };
+		E4D3F0B31853FB85004EC5FF /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 				E42B824418516CE100322CDD /* ParticleSystem.h */,
 				AECD7C4521F945F2B255A1E0 /* Resources.h */,
 				E42B824018512CF000322CDD /* Utils.h */,
+				E4D3F0B31853FB85004EC5FF /* Resources.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";

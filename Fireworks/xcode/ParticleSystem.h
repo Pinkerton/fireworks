@@ -11,11 +11,13 @@
 
 #include <iostream>
 #include "Emitter.h"
+#include "cinder/audio/Io.h"
 
 using namespace ci;
 using namespace ci::app;
 
 class ParticleSystem {
+
 public:
     void mouseDown(MouseEvent event);
     void mouseDrag(MouseEvent event);
@@ -26,6 +28,7 @@ public:
 
 private:
     static std::list<Emitter> emitters;
+    static audio::SourceRef mAudioSource;
 };
 
 #endif /* defined(__Fireworks__ParticleSystem__) */

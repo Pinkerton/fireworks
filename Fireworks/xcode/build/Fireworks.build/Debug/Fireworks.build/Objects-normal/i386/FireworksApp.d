@@ -4,4 +4,48 @@ dependencies: \
   /Users/pinkerton/dev/Fireworks/Fireworks/src/FireworksApp.h \
   /Users/pinkerton/dev/Fireworks/Fireworks/xcode/ParticleSystem.h \
   /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Emitter.h \
-  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/Particle.h \
+  ../../../lib/cinder_0.8.5_mac/include/cinder/audio/Io.h \
+  ../../../lib/cinder_0.8.5_mac/include/cinder/audio/PcmBuffer.h \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/cat.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/arithmetic/dec.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/config/config.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/control/if.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/fold_left.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/seq.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/size.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/tuple/eat.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/elem.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/enum.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/filter.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/control/expr_if.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/facilities/empty.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/tuple/elem.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/tuple/rem.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/first_n.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/fold_right.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/cat.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/detail/auto_rec.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/reverse.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/for_each.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/for_each_i.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/for_each_product.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/insert.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/rest_n.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/arithmetic/inc.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/detail/split.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/pop_back.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/pop_front.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/push_back.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/push_front.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/remove.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/replace.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/subseq.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/to_array.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/to_list.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/punctuation/comma.hpp \
+  /Users/pinkerton/dev/Fireworks/Fireworks/xcode/../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/punctuation/paren.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/detail/binary_transform.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/to_tuple.hpp \
+  ../../../lib/cinder_0.8.5_mac/boost/boost/preprocessor/seq/transform.hpp
