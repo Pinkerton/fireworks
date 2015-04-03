@@ -6,10 +6,11 @@
 //
 //
 
-#include "ParticleSystem.h"
-#include "Emitter.h"
+#include <thread>
 #include "cinder/audio/Output.h"
 #include "cinder/audio/Io.h"
+#include "ParticleSystem.h"
+#include "Emitter.h"
 #include "Resources.h"
 
 using namespace ci;
@@ -17,6 +18,7 @@ using namespace ci::app;
 using namespace std;
 
 std::list<Emitter> ParticleSystem::emitters = std::list<Emitter>();
+//std::list<thread> ParticleSystem::threads = std::list<thread>();
 //audio::SourceRef ParticleSystem::mAudioSource = audio::load(loadResource(RES_BOOMWAV));
 
 void ParticleSystem::mouseDown(MouseEvent event) {
@@ -48,4 +50,5 @@ void ParticleSystem::draw() {
 void ParticleSystem::addEmitter(Vec2f loc) {
     //audio::Output::play(mAudioSource);
     emitters.push_back(Emitter(loc, false));
+    //thread emitterThread();
 }

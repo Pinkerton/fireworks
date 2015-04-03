@@ -10,6 +10,7 @@
 #define __Fireworks__ParticleSystem__
 
 #include <iostream>
+#include <thread>
 #include "Emitter.h"
 #include "cinder/audio/Io.h"
 
@@ -28,6 +29,7 @@ public:
 
 private:
     static std::list<Emitter> emitters;
+    static std::list<thread> threads;
     static audio::SourceRef mAudioSource;
 };
 
